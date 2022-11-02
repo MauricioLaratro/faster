@@ -1,0 +1,11 @@
+.hero{
+    background-color: aquamarine;
+    grid-column: 1 / -1;
+    grid-row-start: 1;
+    block-size: 814px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

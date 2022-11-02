@@ -1,0 +1,9 @@
+.press{
+    background-color: white;
+    block-size: 500px;
+
+}
+
+.press-content{
+    display: flex;
+}
