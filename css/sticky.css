@@ -1,7 +1,6 @@
 .sticky{
     position: sticky;
-    inset-block-start: 124px;
-    border: 1px solid red;
+    inset-block-start: 212px;
     grid-area: phone;
 }
 

@@ -1,9 +1,38 @@
 .press{
     background-color: white;
-    block-size: 500px;
-
 }
 
 .press-content{
     display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-inline-start: 1.875rem;
+}
+
+.press-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-block-start: 2.75rem;
+    margin-block-end: 4rem;
+    gap: 1.5rem;
+    block-size: fit-content;
+}
+
+.press-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-inline-size: 38.125rem;
+    margin-block-end: 7.75rem;
+}
+
+.press-text p{
+    font: var(--headLine2);
+    margin: 0;
+}
+.press-text span{
+    font: var(--body1-regular);
+    color: var(--grey);
+    max-inline-size: 36.25rem;
 }

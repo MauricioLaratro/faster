@@ -1,0 +1,26 @@
+.button{
+    box-sizing: border-box;
+    background: transparent;
+    font: var(--button);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding-inline: 12px;
+    padding-block: 10px;
+    inline-size: 16.25rem;
+    block-size: 3.25rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(.9);
+}
+
+.button.is-white{
+    background: var(--white);
+    color: var(--black);
+    inline-size: 8rem;
+    block-size: 2.375rem;
+    padding-block: 0.3125rem;
+    padding-inline: 1rem;
+}

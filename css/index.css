@@ -1,27 +1,46 @@
+@import './header.css';
 @import './hero.css';
 @import './press.css';
 @import './transaction.css';
 @import './why.css';
 @import './sticky.css';
+@import './button.css';
 
 
 
+:root{
+    --baseFontFamily: 'inter';
+    --headLine1: bold 2.875rem/3.5rem var(--baseFontFamily);
+    --headLine2: bold 3rem/3.625rem var(--baseFontFamily);
+    --headLine3: bold 2.875rem/3.5rem var(--baseFontFamily);
+    --headLine4: bold 1.75rem/2.125rem var(--baseFontFamily);
+    --headLine5: bold 1.5625rem/1.875rem var(--baseFontFamily);
+    --body1-bold: bold 1.125rem/1.6875rem var(--baseFontFamily);
+    --body1-regular: normal 1.125rem/1.6875rem var(--baseFontFamily);
+    --body2-bold: bold 1rem/1.1875rem var(--baseFontFamily);
+    --body2-regular: normal 1rem/1.375rem var(--baseFontFamily);
+    --button: bold 1.125rem/1.75rem var(--baseFontFamily);
+    --caption: normal 0.75rem/1.375rem var(--baseFontFamily);
+    --black: #000000;
+    --primary: #FED941;
+    --grey: #808080;
+    --white: #FFFFFF;
+    --phoneInlineSize: 400px;
+    --gridTemplateColumns: 1fr var(--phoneInlineSize) 1000px 1fr;
+}
 
 
 body{
     margin: 0;
+    font: var(--body1-regular);
 }
 
 section{
-    block-size: 500px;
-    border: 1px solid purple;
+    /* block-size: 500px; */
+    /* border: 1px solid purple; */
 }
 
 
-:root{
-    --phoneInlineSize: 400px;
-    --gridTemplateColumns: 1fr var(--phoneInlineSize) 1000px 1fr;
-}
 
 .grid{
     display: grid;

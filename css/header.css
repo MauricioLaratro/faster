@@ -1,0 +1,28 @@
+.header{
+    background: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.5rem;
+    padding-inline: 1.25rem;
+}
+
+.header a{
+    font: var(--headLine5);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header-links{
+    display: flex;
+    gap: 2.5rem;
+}
+.header-links a{
+    font: var(--button);
+    color: var(--grey);
+}
+
+.header-links a.is-active{
+    color: var(--white);
+    border-block-end: 4px solid var(--white);
+}
