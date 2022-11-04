@@ -2,9 +2,11 @@
 @import './hero.css';
 @import './press.css';
 @import './transaction.css';
-@import './why.css';
+@import './track-packages.css';
 @import './sticky.css';
 @import './button.css';
+@import './login.css';
+@import './folks.css';
 
 
 
@@ -27,12 +29,22 @@
     --white: #FFFFFF;
     --phoneInlineSize: 400px;
     --gridTemplateColumns: 1fr var(--phoneInlineSize) 1000px 1fr;
+    
 }
 
 
 body{
     margin: 0;
     font: var(--body1-regular);
+}
+
+body h2{
+    font: var(--headLine2);
+    margin: 0;
+}
+
+body span{
+    color: var(--grey);
 }
 
 section{
@@ -103,6 +115,7 @@ section{
 
 .inset-grid [class*="content"]{
     grid-area: content;
+    margin-inline-start: 1.875rem;
 }
 
 /* [class*="content"] este es un selector de atributo que hace que cualquier cosa que contenga la palabra "content" en su clase, se le apliquen estos estilos (sin inportar si es hero-content o ejemplo-content, con solo contener la palabra que pongamos entre comillas, se aplicara). */

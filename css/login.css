@@ -1,0 +1,11 @@
+.login{
+    background: var(--white);
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-block-start: 12.5rem;
+    margin-block-end: 12.5rem;
+}

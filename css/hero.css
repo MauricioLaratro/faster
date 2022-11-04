@@ -9,16 +9,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font: var(--headLine3);
     color: var(--white);
     margin: 0;
     gap: 1.5rem;
-    margin-inline-start: 1.875rem;
 }
 
 
-.hero-content p{
+.hero-content h3{
     margin: 0;
+    font: var(--headLine3);
 }
 .hero-content span{
     font: var(--body1-regular);

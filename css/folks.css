@@ -1,0 +1,28 @@
+.folks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    gap: 5rem;
+}
+
+.folksTitle{
+    display: flex;
+    color: #333333;
+    margin-block-start: 8rem;
+    justify-content: center;
+}
+
+.folksComents{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-end: 5rem;
+}
+
+.folksComents-card{
+    background-color: var(--white);
+    inline-size: 26.625rem;
+    block-size: 27.4375rem;
+    border: 1px solid blue;
+}

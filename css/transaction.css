@@ -1,4 +1,14 @@
 .transactions{
-    block-size: 500px;
-    background: chartreuse;
+    background-image: url(../image/transaction-image.png);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+
+.transactions-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-inline-size: 28.625rem;
+    margin-block-start: 12.5rem;
+    margin-block-end: 21.6875rem;
 }
