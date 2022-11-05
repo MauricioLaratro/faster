@@ -19,10 +19,24 @@
 }
 .header-links a{
     font: var(--button);
-    color: var(--grey);
+    /* color: var(--grey); */
+}
+.header-links a:active{
+    color: var(--white);
 }
 
-.header-links a.is-active{
-    color: var(--white);
-    border-block-end: 4px solid var(--white);
+
+.header nav{
+    position: relative;
+}
+
+
+#underLine{
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: var(--white);
+    left: 0;
+    bottom: -1rem;
+    transition: 0.5s ease;
 }

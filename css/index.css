@@ -7,6 +7,7 @@
 @import './button.css';
 @import './login.css';
 @import './folks.css';
+@import './footer.css';
 
 
 
@@ -42,16 +43,20 @@ body h2{
     font: var(--headLine2);
     margin: 0;
 }
+body h4{
+    font: var(--headLine5);
+    margin: 0;
+    color: white;
+}
+body h5{
+    font: var(--button);
+    margin: 0;
+    color: white;
+}
 
 body span{
     color: var(--grey);
 }
-
-section{
-    /* block-size: 500px; */
-    /* border: 1px solid purple; */
-}
-
 
 
 .grid{

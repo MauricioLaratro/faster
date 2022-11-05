@@ -13,13 +13,14 @@
 <body>
     <header class="header">
         <a href="./index.html">FASTER</a>
-        <div class="header-links">
-            <a class="is-active" href="">How Fast?</a>
-            <a href="">Sellers</a>
-            <a href="">Store</a>
-            <a href="">Docs</a>
-            <a href="">Help</a>
-        </div>
+        <nav class="header-links">
+            <div id="underLine"></div>
+                <a href="#">How Fast?</a>
+                <a href="#">Sellers</a>
+                <a href="#">Store</a>
+                <a href="#">Docs</a>
+                <a href="#">Help</a>
+        </nav>
         <button class="button is-white">Fast Login</button>
     </header>
     <div class="grid">
@@ -84,17 +85,79 @@
             </div>
             <div class="folksComents">
                 <div class="folksComents-card">
-                    <span>1</span>
+                    <div class="cardImage">
+                        <img src="./image/user-image1.png" alt="">
+                    </div>
+                    <div class="cardText">
+                        <span>Just made my first @fast order. Now I’m just upset that every store doesn’t have this yet. @domm let’s go!!!!</span>
+                    </div>
+                    <div class="cardUser">
+                        <p>Harry Hurst</p>
+                        <span>@harryhurst</span>
+                    </div>
                 </div>
                 <div class="folksComents-card">
-                    <span>2</span>
+                    <div class="cardImage">
+                        <img src="./image/user-image2.png" alt="">
+                    </div>
+                    <div class="cardText">
+                        <span>So I got a new laptop on the weekend and had to reset all my passwords. Two days later.. still resetting passwords. I need you, @fast</span>
+                    </div>
+                    <div class="cardUser">
+                        <p>Holly Cardew</p>
+                        <span>@hollyccc</span>
+                    </div>
                 </div>
                 <div class="folksComents-card">
-                    <span>3</span>
+                    <div class="cardImage">
+                        <img src="./image/user-image3.png" alt="">
+                    </div>
+                    <div class="cardText">
+                        <span>Finally took @fast checkout for a spin. After initial sign up, processed checkout in less than. 1 second. Implications for this tech is exponential. Excited to see what @domm and @abarrallen are building with this tech.</span>
+                    </div>
+                    <div class="cardUser">
+                        <p>Hum</p>
+                        <span>@humrashid</span>
+                    </div>
                 </div>
             </div>
     </section>
-    <section></section>
-    <section></section>
+    <footer class="footer">
+        <div class="signUp">
+            <h2>It's time to go Fast</h2>
+            <span>Sign up for Fast Checkout today</span>
+            <button class="button is-black">Fast Sign up</button>
+        </div>
+        <div class="footer-info">
+            <div class="footerSocial">
+                <h4>FASTER</h4>
+                <span>2021 Fast AF, Inc.</span>
+                <div class="footerSocial-contect">
+                    <img src="./image/faster-twitter.png" alt="">
+                    <img src="./image/faster-ig.png" alt="">
+                    <img src="./image/faster-linkedin.png" alt="">
+                </div>
+            </div>
+            <div class="footerProduct">
+                <h5>Product</h5>
+                <span>Checkout <br> Sellers <br> Partners <br> Pricing <br> Seller Stories <br> Privacy & Security <br> Customer Stories <br> Help</span>
+            </div>
+            <div class="footerCompany">
+                <h5>Company</h5>
+                <span>Careers <br> Newsroom <br> Privacy <br> Policy <br> Terms of Service <br> Responsible Disclosure <br> Do not sell my info (California)</span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const underline = document.querySelector('#underLine');
+        const menu = document.querySelector('nav');
+
+        menu.addEventListener('click', e => {
+            if (e.target.nodeName === ('A') ){
+                underline.style.left = e.target.offsetLeft + 'px';
+                underline.style.width = e.target.offsetWidth + 'px';
+            }
+        });
+    </script>
 </body>
 </html>
