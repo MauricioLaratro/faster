@@ -7,3 +7,9 @@
 .sticky img{
     max-inline-size: 100%;
 }
+
+.sticky-mobile{
+    display: none;
+    /* inset-block-start: 212px; */
+    grid-area: phone;
+}

@@ -78,6 +78,12 @@ body span{
         --phoneBlockSize: 500px;
         --gridTemplateColumns: auto auto 1fr auto;
     }
+    body h2{
+        font: var(--headLine5);
+    }
+    body span{
+        font: var(--body2-regular);
+    }
     .grid{
         display: block;
     }
@@ -87,12 +93,50 @@ body span{
         grid-row-start: initial;
         padding-block-end: calc(var(--phoneBlockSize) / 2 + 3rem);
     }
-    .hero-content{
+    /* .hero-content{
         display: initial;
+    } */
+    .hero-content button{
+        margin-block-start: 0;
+    }
+    .hero-content h3{
+        margin: 0;
+        font: var(--headLine5);
+    }
+    .hero-content span{
+        font: var(--body2-regular);
+        color: var(--grey);
     }
     .press{
         grid-row-start: initial;
+        background: linear-gradient(to bottom, transparent 0%, transparent 50%, #E8E8E6 50%, #E8E8E6);
     }
+    .press-image{
+        max-inline-size: 22.5rem;
+        max-block-size: 12.6875rem;
+    }
+    .press-image img{
+        inline-size: 100%;
+    }
+    .press-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-block-start: 2.75rem;
+        margin-block-end: 0;
+        gap: 1.5rem;
+        block-size: fit-content;
+    }
+    .press-text h2{
+        font: var(--headLine5);
+        margin: 0;
+    }
+    .press-text span{
+        font: var(--body2-regular);
+        margin: 0;
+    }
+
     .sticky{
         position: initial;
         grid-area: initial;
@@ -104,6 +148,72 @@ body span{
     .sticky img{
         max-block-size: 100%;
     }
+    .sticky-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-block: 0;
+        margin-block: 0;
+        block-size: var(--phoneBlockSize);
+        background: #E8E8E6;
+    }
+    .sticky-mobile img{
+        max-block-size: 100%;
+    }
+
+      /* ARREGLAR! */
+    .transactions{
+        margin-block-end: 8.625rem;
+        border: 1px solid red;
+    }
+    .transactions-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-block-start: 4rem;
+        margin-block-end: 8.625rem;
+    }
+    .transactions-content .sticky-mobile,
+    .trackPackages .sticky-mobile{
+        background: transparent;
+        margin-inline-start: -1.875rem;
+    }
+    .transactions-content span{
+        margin-block-end: 4rem;
+    }
+      /* ARREGLAR! */
+
+
+    .trackPackages-content{
+        margin-block-end: 3.5rem;
+    }
+    .trackPackages-content span{
+        margin-block-end: 4rem;
+    }
+
+
+    .login-content .login-image{
+        inline-size: 20rem;
+        order: 2;
+    }
+    .login-image img{
+        max-inline-size: 100%;
+    }
+    .login-content{
+        margin-block-end: 4rem;
+    }
+    
+
+    
+    
+    .header nav{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
+
 }
 
 
