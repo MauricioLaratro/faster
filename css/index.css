@@ -115,13 +115,13 @@ body span{
         justify-self: center;
     }
     .press-image{
-        max-inline-size: 22.5rem;
+        max-inline-size: 18.75rem;
         max-block-size: 12.6875rem;
         align-self: center;
     }
-    .press-image img{
+    /* .press-image img{
         inline-size: 100%;
-    }
+    } */
     .press-logo{
         display: flex;
         flex-direction: column;

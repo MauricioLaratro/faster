@@ -35,3 +35,19 @@
     color: var(--grey);
     max-inline-size: 36.25rem;
 }
+
+.press-image{
+    display: flex;
+    max-inline-size: 54.75rem;
+    min-inline-size: 18.75rem;
+    inline-size: 100%;
+    margin: auto;
+    block-size: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.press-image img{
+    inline-size: 100%;
+    block-size: auto;
+}
