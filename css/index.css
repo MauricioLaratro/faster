@@ -93,9 +93,9 @@ body span{
         grid-row-start: initial;
         padding-block-end: calc(var(--phoneBlockSize) / 2 + 3rem);
     }
-    /* .hero-content{
-        display: initial;
-    } */
+    .hero-content{
+        justify-self: center;;
+    }
     .hero-content button{
         margin-block-start: 0;
     }
@@ -111,9 +111,13 @@ body span{
         grid-row-start: initial;
         background: linear-gradient(to bottom, transparent 0%, transparent 50%, #E8E8E6 50%, #E8E8E6);
     }
+    .press-content{
+        justify-self: center;
+    }
     .press-image{
         max-inline-size: 22.5rem;
         max-block-size: 12.6875rem;
+        align-self: center;
     }
     .press-image img{
         inline-size: 100%;
@@ -136,6 +140,7 @@ body span{
         font: var(--body2-regular);
         margin: 0;
     }
+
 
     .sticky{
         position: initial;
@@ -162,10 +167,10 @@ body span{
         max-block-size: 100%;
     }
 
-      /* ARREGLAR! */
+
     .transactions{
-        margin-block-end: 8.625rem;
-        border: 1px solid red;
+        /* margin-block-end: 8.625rem; */
+        /* border: 1px solid red; */
     }
     .transactions-content{
         display: flex;
@@ -173,6 +178,7 @@ body span{
         gap: 1rem;
         margin-block-start: 4rem;
         margin-block-end: 8.625rem;
+        justify-self: center;
     }
     .transactions-content .sticky-mobile,
     .trackPackages .sticky-mobile{
@@ -182,11 +188,9 @@ body span{
     .transactions-content span{
         margin-block-end: 4rem;
     }
-      /* ARREGLAR! */
-
-
     .trackPackages-content{
         margin-block-end: 3.5rem;
+        justify-self: center;
     }
     .trackPackages-content span{
         margin-block-end: 4rem;
@@ -202,9 +206,53 @@ body span{
     }
     .login-content{
         margin-block-end: 4rem;
+        justify-self: center;
     }
     
 
+    /* .folks{
+
+    } */
+    .folksTitle{
+        margin-block-start: 5rem;
+        max-inline-size: 20rem;
+        text-align: center;
+        align-self: center;
+    }
+    .folksComents{
+        flex-direction: column;
+        align-items: center;
+        gap: 8rem;
+    }
+    .folksComents-card{
+        inline-size: 18rem;
+    }
+
+
+    /* footer{
+
+    } */
+    .signUp{
+        inline-size: 20rem;
+        position: absolute;
+        top: -10%;
+    }
+    .signUp h2{
+        margin-block-start: 1.5rem;
+    }
+    .signUp button{
+        margin-block-start: 1.5rem;
+        margin-block-end: 1.5rem;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin-block-start: 12.5rem;
+        margin-block-end: 8rem;
+        padding-inline-start: 1.5rem;
+    }
+    
     
     
     .header nav{
