@@ -198,7 +198,6 @@ body span{
 
 
     .login-content .login-image{
-        inline-size: 20rem;
         order: 2;
     }
     .login-image img{
@@ -225,7 +224,7 @@ body span{
         gap: 8rem;
     }
     .folksComents-card{
-        inline-size: 18rem;
+        max-inline-size: 16rem;
     }
 
 
@@ -254,7 +253,7 @@ body span{
     }
     
     
-    
+
     .header nav{
         display: none;
     }

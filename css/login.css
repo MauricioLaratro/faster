@@ -9,3 +9,20 @@
     margin-block-start: 12.5rem;
     margin-block-end: 12.5rem;
 }
+
+
+.login-image{
+    display: flex;
+    min-inline-size: 15rem;
+    max-inline-size: 23.125rem;
+    inline-size: 100%;
+    margin: auto;
+    block-size: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.login-image img{
+    inline-size: 100%;
+    block-size: auto;
+}
