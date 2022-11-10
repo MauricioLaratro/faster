@@ -41,7 +41,7 @@
     max-inline-size: 54.75rem;
     min-inline-size: 15rem;
     inline-size: 100%;
-    margin: auto;
+    /* margin: auto; */
     block-size: auto;
     box-sizing: border-box;
     overflow: hidden;
